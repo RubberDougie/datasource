@@ -1,6 +1,6 @@
 package datasource;
 
-public class DataSouceSelector {
+public class DataSourceSelector {
 	public static DataSource dataSourceSelector(String sourceType) {
 		DataSource dataSource = null;
 		switch (sourceType) {
