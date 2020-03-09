@@ -1,5 +1,5 @@
 package datasource;
 
-public class DbSource implements DataSource {
+public abstract class DbSource {
 
 }
