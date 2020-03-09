@@ -1,5 +1,5 @@
 package datasource;
 
-public class FileSource {
+public class FileSource implements DataSource {
 
 }
