@@ -1,5 +1,5 @@
 package datasource;
 
-public class MySqlSource implements DataSource {
+public class MySqlSource extends SqlSource implements DataSource {
 
 }
