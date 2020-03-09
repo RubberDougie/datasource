@@ -6,4 +6,7 @@ public interface DataSource {
 		return test;
 	}
 
+	default <E> boolean processData(E data) {
+		return true;
+	}
 }
