@@ -2,11 +2,10 @@ package datasource;
 
 public interface DataSource {
 
-	default <E> Object doStuff(E test) {
-		return test;
-	}
+	String SOURCE_TYPE = "";
 
 	default <E> boolean processData(E data) {
 		return true;
 	}
+
 }
