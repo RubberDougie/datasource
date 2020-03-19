@@ -5,5 +5,5 @@ public abstract class DbSource {
 	public DbSource(String... args) {
 	}
 
-	abstract public Object queryDB(String[] args);
+	public abstract Object queryDB(String[] args);
 }
