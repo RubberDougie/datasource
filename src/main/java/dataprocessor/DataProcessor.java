@@ -4,7 +4,7 @@ import static datasource.DataSourceSelector.dataSourceSelector;
 
 import datasource.DataSource;
 
-public class Main {
+public class DataProcessor {
 
 	public static void main(String[] args) {
 		String sampleSelector = "FILE SOURCE";
