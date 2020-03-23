@@ -1,2 +1,9 @@
 program to open the .graphML file: https://www.yworks.com/products/yed 
 
+MySQL information:
+- Schema: hosp
+- username: newuser1
+- pass: Abcdefg1
+
+DDL for the schema is in /src/main/resources/
+

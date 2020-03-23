@@ -5,5 +5,5 @@ public abstract class DbSource {
 	public DbSource(String... args) {
 	}
 
-	protected abstract Object queryDB(String[] args);
+	protected abstract Object queryDB(String[] args) throws Exception;
 }
