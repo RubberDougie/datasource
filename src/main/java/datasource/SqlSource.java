@@ -9,7 +9,7 @@ public class SqlSource extends DbSource implements DataSource {
 
 	// WIP
 	@Override
-	public Object queryDB(String[] args) {
+	protected Object queryDB(String[] args) {
 		return new Object();
 	}
 }

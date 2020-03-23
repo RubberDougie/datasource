@@ -4,8 +4,8 @@ public interface DataSource {
 
 	String SOURCE_TYPE = "";
 
-	default <E> boolean processData(E data) {
+	// WIP
+	public default <E> boolean processData(E data) {
 		return true;
 	}
-
 }
